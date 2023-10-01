@@ -1,0 +1,48 @@
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+img {
+    display: block;
+}
+
+
+.cat-info {
+    display: flex;
+    gap: 20px;
+}
+
+body {
+    font-size: x-large;
+    background-color: rgb(193, 204, 218);
+
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.description {
+    margin-bottom: 70px;
+}
+
+.temperament {
+    font-weight: 800;
+}
+
+.loader {
+    width: 120px;
+    height: 20px;
+    border-radius: 20px;
+    background:
+        linear-gradient(rgb(26, 223, 203) 0 0) 0/0% no-repeat rgb(21, 152, 196);
+    animation: l2 2s infinite steps(10);
+}
+
+@keyframes l2 {
+    100% {
+        background-size: 110%
+    }
+}
